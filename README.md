@@ -2,7 +2,7 @@
 This is the github repo for our ACL 2023 paper "Towards Reference-free Text Simplification Evaluation with a BERT Siamese Network Architecture" [(Link)](https://aclanthology.org/2023.findings-acl.838.pdf).
 
 ## Pre-trained Checkpoint
-The original checkpoint is deprecated due to cluster shutdown. The author quickly re-trained a small model at this link: [model](https://drive.google.com/file/d/1XvQvTVakLPFMKWbCYGHjDd9vK69Lm9GY/view?usp=sharing)
+The original checkpoint is deprecated due to cluster shutdown. The author quickly re-trained a small model at this link: [model](https://drive.google.com/file/d/1XvQvTVakLPFMKWbCYGHjDd9vK69Lm9GY/view?usp=sharing).
 
 This model can replicate similar performance on SemEval 2012 and Simplicity-DA reported in the original paper.
 
@@ -25,7 +25,11 @@ An example is as follows:
         prediction = ranker(cids, uids)
         print(prediction.cpu().detach().tolist())
 
-The whole pipeline to get BETS is in **metric.py**, which combines the P_simp and R_meaning scores.
+The whole pipeline to get BETS is in **metric.py**, which combines the P_simp and R_meaning scores. 
+
+The input for the pipeline with P-simp/R-meaning is **./dataset/wikilarge.json** (a list of sentences to be simplified) and **./dataset/final_output.json** (a dictionary of lists of simplification system outputs).
+
+
   
 ## Citation
 
