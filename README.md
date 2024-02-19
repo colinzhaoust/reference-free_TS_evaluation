@@ -29,23 +29,23 @@ The whole pipeline to get BETS is in **metric.py**, which combines the P_simp an
   
 ## Citation
 
-  @inproceedings{zhao-etal-2023-towards,
-      title = "Towards Reference-free Text Simplification Evaluation with a {BERT} {S}iamese Network Architecture",
-      author = "Zhao, Xinran  and
-        Durmus, Esin  and
-        Yeung, Dit-Yan",
-      editor = "Rogers, Anna  and
-        Boyd-Graber, Jordan  and
-        Okazaki, Naoaki",
-      booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-      month = jul,
-      year = "2023",
-      address = "Toronto, Canada",
-      publisher = "Association for Computational Linguistics",
-      url = "https://aclanthology.org/2023.findings-acl.838",
-      doi = "10.18653/v1/2023.findings-acl.838",
-      pages = "13250--13264",
-  }
+      @inproceedings{zhao-etal-2023-towards,
+          title = "Towards Reference-free Text Simplification Evaluation with a {BERT} {S}iamese Network Architecture",
+          author = "Zhao, Xinran  and
+            Durmus, Esin  and
+            Yeung, Dit-Yan",
+          editor = "Rogers, Anna  and
+            Boyd-Graber, Jordan  and
+            Okazaki, Naoaki",
+          booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+          month = jul,
+          year = "2023",
+          address = "Toronto, Canada",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2023.findings-acl.838",
+          doi = "10.18653/v1/2023.findings-acl.838",
+          pages = "13250--13264",
+      }
 
 ## Others
 If you have any other questions about this repo, you are welcome to open an issue or send me an [email](mailto:xinranz3@andrew.cmu.edu), I will respond to that as soon as possible.
