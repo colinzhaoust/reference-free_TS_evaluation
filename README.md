@@ -2,7 +2,7 @@
 This is the github repo for our ACL 2023 paper "Towards Reference-free Text Simplification Evaluation with a BERT Siamese Network Architecture" [(Link)](https://aclanthology.org/2023.findings-acl.838.pdf).
 
 ## Pre-trained Checkpoint
-The original checkpoint is deprecated due to cluster shutdown. The author quickly re-trained a small model at this link: [model](https://drive.google.com/file/d/1XvQvTVakLPFMKWbCYGHjDd9vK69Lm9GY/view?usp=sharing).
+The original checkpoint is deprecated due to cluster shutdown. The author quickly re-trained a small model at this link: [BERT-base/large Models](https://drive.google.com/file/d/1bGN6KwNReKE1LbJmyGQ0AAWJGH47ojhU/view?usp=drive_link). The link is updated on August 2024.
 
 This model can replicate similar performance on SemEval 2012 and Simplicity-DA reported in the original paper.
 
